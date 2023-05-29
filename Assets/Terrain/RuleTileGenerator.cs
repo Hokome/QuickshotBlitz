@@ -9,9 +9,9 @@ using UnityEngine.Tilemaps;
 namespace QuickshotBlitz.Editor
 {
 
-#if UNITY_EDITOR
     public class RuleTileGenerator : EditorWindow
     {
+#if UNITY_EDITOR
         Vector2 scrollpos;
 
         public string tileName = "NewRuleTile";
@@ -321,6 +321,6 @@ namespace QuickshotBlitz.Editor
 
             Selection.activeObject = tile;
         }
-    }
 #endif
+    }
 }
