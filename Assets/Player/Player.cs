@@ -31,6 +31,9 @@ namespace QuickshotBlitz
             _rb.velocity = _moveInput * _speed;
         }
 
+        /// <summary>
+        /// This should only be used by <see cref="PlayerInput"/> events
+        /// </summary>
         public void SetMoveInput(InputContext ctx)
         {
             _moveInput = ctx.ReadValue<Vector2>();
