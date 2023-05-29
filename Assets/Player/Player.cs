@@ -16,13 +16,9 @@ namespace QuickshotBlitz
         private Rigidbody2D _rb;
         private Vector2 _moveInput;
 
-        private void Awake()
-        {
-            GameManager.Inst.Player = this;
-        }
-
         private void Start()
         {
+            GameManager.Inst.Player = this;
             _rb = GetComponent<Rigidbody2D>();
         }
 
