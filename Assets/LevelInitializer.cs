@@ -16,7 +16,12 @@ namespace QuickshotBlitz
         public void Initialize()
         {
             Instantiate(_cameraPrefab);
-            Instantiate(_playerCameraPrefab).Follow = Instantiate(_playerPrefab).transform;
+
+            var cam = Instantiate(_playerCameraPrefab);
+            var player = Instantiate(_playerPrefab);
+
+            cam.Follow = player.transform;
+            player.VirtualCamera = cam;
         }
     }
 }
