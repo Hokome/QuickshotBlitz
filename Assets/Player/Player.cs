@@ -28,6 +28,14 @@ namespace QuickshotBlitz
         }
 
         /// <summary>
+        /// Makes the player respawn at the appropriate point
+        /// </summary>
+        public void Die()
+        {
+
+        }
+
+        /// <summary>
         /// This should only be used by <see cref="PlayerInput"/> events
         /// </summary>
         public void SetMoveInput(InputContext ctx)

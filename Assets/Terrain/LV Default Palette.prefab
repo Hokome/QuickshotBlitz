@@ -193,7 +193,7 @@ GameObject:
   - component: {fileID: 5699204924363429795}
   - component: {fileID: 3500655557665793581}
   m_Layer: 0
-  m_Name: Default Palette
+  m_Name: LV Default Palette
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
