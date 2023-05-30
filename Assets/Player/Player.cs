@@ -13,12 +13,16 @@ namespace QuickshotBlitz
     {
         [SerializeField] private float _speed;
 
+        public PlayerSpawnPoint SpawnPoint { get; set; }
+
         private Rigidbody2D _rb;
         private Vector2 _moveInput;
 
         private void Start()
         {
             GameManager.Inst.Player = this;
+            SpawnPoint = GameManager.Inst.DefaultSpawnPoint;
+            transform.position = SpawnPoint.transform.position;
             _rb = GetComponent<Rigidbody2D>();
         }
 

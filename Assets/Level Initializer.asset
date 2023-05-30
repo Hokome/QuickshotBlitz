@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1715d7020beb3d4f849829c6306aed3, type: 3}
+  m_Name: Level Initializer
+  m_EditorClassIdentifier: 
+  _playerPrefab: {fileID: 4893345884062999805, guid: 991bf750952835f4f9316c405d8809d5, type: 3}
+  _cameraPrefab: {fileID: 2104313941750866831, guid: 5d5a849f257876a47a93e93c32a655b1, type: 3}
+  _playerCameraPrefab: {fileID: 6054074411849709299, guid: 4f07dbc4006925748b4f939c3713d814, type: 3}
