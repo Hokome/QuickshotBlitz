@@ -4,7 +4,10 @@ using UnityEngine;
 
 namespace QuickshotBlitz
 {
-    public class Killzone : MonoBehaviour
+    /// <summary>
+    /// Component for everything that can kill things when touching them
+    /// </summary>
+    public class KillTouch : MonoBehaviour
     {
         [SerializeField] private LayerMask _killMask;
 
