@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['ispaused_0',['isPaused',['../class_lean_tween.html#a78ce25cbc68727b2965aa45ede1e310f',1,'LeanTween']]],
-  ['istweening_1',['isTweening',['../class_lean_tween.html#a325405079311587dfad028a14d510f58',1,'LeanTween']]]
+  ['clamp_0',['Clamp',['../struct_quickshot_blitz_1_1_range.html#af468ff276a6bae57da39bcbb206de39c',1,'QuickshotBlitz.Range.Clamp()'],['../struct_quickshot_blitz_1_1_range_int.html#ab9efd8fa6f2cb63a8a572b82e71b2540',1,'QuickshotBlitz.RangeInt.Clamp()']]],
+  ['countdowncoroutine_1',['CountdownCoroutine',['../class_quickshot_blitz_1_1_u_i_1_1_countdown.html#a3dbfdc1607fbe9e61d386551af0e3bd5',1,'QuickshotBlitz::UI::Countdown']]]
 ];

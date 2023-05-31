@@ -9,35 +9,114 @@ Inheritance diagram for Quickshot\+Blitz.\+Player\+:\begin{figure}[H]
 \doxysubsubsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\Hypertarget{class_quickshot_blitz_1_1_player_a76ebd9d29462d4f1ec23aa0e5f47980d}\label{class_quickshot_blitz_1_1_player_a76ebd9d29462d4f1ec23aa0e5f47980d} 
-void {\bfseries Set\+Move\+Input} (Input\+Context ctx)
-\begin{DoxyCompactList}\small\item\em This should only be used by Player\+Input events. \end{DoxyCompactList}\end{DoxyCompactItemize}
+void \mbox{\hyperlink{class_quickshot_blitz_1_1_player_a76ebd9d29462d4f1ec23aa0e5f47980d}{Set\+Move\+Input}} (\mbox{\hyperlink{_player_8cs_a77c52a6b6fb89a3d5f0a1a893efaa48e}{Input\+Context}} ctx)
+\begin{DoxyCompactList}\small\item\em This should only be used by Player\+Input events. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_quickshot_blitz_1_1_player_afcdb981ff7ef807ac3b01b3227fec29c}{Kill}} ()
+\begin{DoxyCompactList}\small\item\em Makes the player respawn at the appropriate point. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{interface_quickshot_blitz_1_1_i_killable_ad0565d4d6b9f9973103931c5ef07b09a}{Kill}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_quickshot_blitz_1_1_player_spawn_point}{Player\+Spawn\+Point}} \mbox{\hyperlink{class_quickshot_blitz_1_1_player_ac49d11c199dcedab6687009d88a5a290}{Spawn\+Point}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+Cinemachine\+Virtual\+Camera \mbox{\hyperlink{class_quickshot_blitz_1_1_player_ac2c29b055f1de68554d35464c2a656b9}{Virtual\+Camera}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
 \doxysubsubsection*{Private Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\Hypertarget{class_quickshot_blitz_1_1_player_a246b82362643ac386bf4ebbf9b3c5594}\label{class_quickshot_blitz_1_1_player_a246b82362643ac386bf4ebbf9b3c5594} 
-void {\bfseries Awake} ()
+void \mbox{\hyperlink{class_quickshot_blitz_1_1_player_a401cc339b30f0cc79b57b9a5e1f9db8d}{Start}} ()
 \item 
-\Hypertarget{class_quickshot_blitz_1_1_player_a401cc339b30f0cc79b57b9a5e1f9db8d}\label{class_quickshot_blitz_1_1_player_a401cc339b30f0cc79b57b9a5e1f9db8d} 
-void {\bfseries Start} ()
-\item 
-\Hypertarget{class_quickshot_blitz_1_1_player_ae07591e5076f40cd6a2cbfd47e4da227}\label{class_quickshot_blitz_1_1_player_ae07591e5076f40cd6a2cbfd47e4da227} 
-void {\bfseries Fixed\+Update} ()
+void \mbox{\hyperlink{class_quickshot_blitz_1_1_player_ae07591e5076f40cd6a2cbfd47e4da227}{Fixed\+Update}} ()
 \end{DoxyCompactItemize}
 \doxysubsubsection*{Private Attributes}
 \begin{DoxyCompactItemize}
 \item 
-\Hypertarget{class_quickshot_blitz_1_1_player_a2d527cdb984b8382e6be393ecba4fe10}\label{class_quickshot_blitz_1_1_player_a2d527cdb984b8382e6be393ecba4fe10} 
-float {\bfseries \+\_\+speed}
+float \mbox{\hyperlink{class_quickshot_blitz_1_1_player_a2d527cdb984b8382e6be393ecba4fe10}{\+\_\+speed}}
 \item 
-\Hypertarget{class_quickshot_blitz_1_1_player_a13df3434456b9afc705f7a48882319dc}\label{class_quickshot_blitz_1_1_player_a13df3434456b9afc705f7a48882319dc} 
-Rigidbody2D {\bfseries \+\_\+rb}
+Rigidbody2D \mbox{\hyperlink{class_quickshot_blitz_1_1_player_a13df3434456b9afc705f7a48882319dc}{\+\_\+rb}}
 \item 
-\Hypertarget{class_quickshot_blitz_1_1_player_ab353b1e62aa77aa4df45f23134b45ccc}\label{class_quickshot_blitz_1_1_player_ab353b1e62aa77aa4df45f23134b45ccc} 
-Vector2 {\bfseries \+\_\+move\+Input}
+Vector2 \mbox{\hyperlink{class_quickshot_blitz_1_1_player_ab353b1e62aa77aa4df45f23134b45ccc}{\+\_\+move\+Input}}
 \end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_quickshot_blitz_1_1_player_ae07591e5076f40cd6a2cbfd47e4da227}\label{class_quickshot_blitz_1_1_player_ae07591e5076f40cd6a2cbfd47e4da227} 
+\index{QuickshotBlitz.Player@{QuickshotBlitz.Player}!FixedUpdate@{FixedUpdate}}
+\index{FixedUpdate@{FixedUpdate}!QuickshotBlitz.Player@{QuickshotBlitz.Player}}
+\doxysubsubsection{\texorpdfstring{FixedUpdate()}{FixedUpdate()}}
+{\footnotesize\ttfamily void Quickshot\+Blitz.\+Player.\+Fixed\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\Hypertarget{class_quickshot_blitz_1_1_player_afcdb981ff7ef807ac3b01b3227fec29c}\label{class_quickshot_blitz_1_1_player_afcdb981ff7ef807ac3b01b3227fec29c} 
+\index{QuickshotBlitz.Player@{QuickshotBlitz.Player}!Kill@{Kill}}
+\index{Kill@{Kill}!QuickshotBlitz.Player@{QuickshotBlitz.Player}}
+\doxysubsubsection{\texorpdfstring{Kill()}{Kill()}}
+{\footnotesize\ttfamily void Quickshot\+Blitz.\+Player.\+Kill (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Makes the player respawn at the appropriate point. 
+
+
+
+Implements \mbox{\hyperlink{interface_quickshot_blitz_1_1_i_killable_ad0565d4d6b9f9973103931c5ef07b09a}{Quickshot\+Blitz.\+IKillable}}.
+
+\Hypertarget{class_quickshot_blitz_1_1_player_a76ebd9d29462d4f1ec23aa0e5f47980d}\label{class_quickshot_blitz_1_1_player_a76ebd9d29462d4f1ec23aa0e5f47980d} 
+\index{QuickshotBlitz.Player@{QuickshotBlitz.Player}!SetMoveInput@{SetMoveInput}}
+\index{SetMoveInput@{SetMoveInput}!QuickshotBlitz.Player@{QuickshotBlitz.Player}}
+\doxysubsubsection{\texorpdfstring{SetMoveInput()}{SetMoveInput()}}
+{\footnotesize\ttfamily void Quickshot\+Blitz.\+Player.\+Set\+Move\+Input (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_player_8cs_a77c52a6b6fb89a3d5f0a1a893efaa48e}{Input\+Context}}}]{ctx }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+This should only be used by Player\+Input events. 
+
+\Hypertarget{class_quickshot_blitz_1_1_player_a401cc339b30f0cc79b57b9a5e1f9db8d}\label{class_quickshot_blitz_1_1_player_a401cc339b30f0cc79b57b9a5e1f9db8d} 
+\index{QuickshotBlitz.Player@{QuickshotBlitz.Player}!Start@{Start}}
+\index{Start@{Start}!QuickshotBlitz.Player@{QuickshotBlitz.Player}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily void Quickshot\+Blitz.\+Player.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_quickshot_blitz_1_1_player_ab353b1e62aa77aa4df45f23134b45ccc}\label{class_quickshot_blitz_1_1_player_ab353b1e62aa77aa4df45f23134b45ccc} 
+\index{QuickshotBlitz.Player@{QuickshotBlitz.Player}!\_moveInput@{\_moveInput}}
+\index{\_moveInput@{\_moveInput}!QuickshotBlitz.Player@{QuickshotBlitz.Player}}
+\doxysubsubsection{\texorpdfstring{\_moveInput}{\_moveInput}}
+{\footnotesize\ttfamily Vector2 Quickshot\+Blitz.\+Player.\+\_\+move\+Input\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_quickshot_blitz_1_1_player_a13df3434456b9afc705f7a48882319dc}\label{class_quickshot_blitz_1_1_player_a13df3434456b9afc705f7a48882319dc} 
+\index{QuickshotBlitz.Player@{QuickshotBlitz.Player}!\_rb@{\_rb}}
+\index{\_rb@{\_rb}!QuickshotBlitz.Player@{QuickshotBlitz.Player}}
+\doxysubsubsection{\texorpdfstring{\_rb}{\_rb}}
+{\footnotesize\ttfamily Rigidbody2D Quickshot\+Blitz.\+Player.\+\_\+rb\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_quickshot_blitz_1_1_player_a2d527cdb984b8382e6be393ecba4fe10}\label{class_quickshot_blitz_1_1_player_a2d527cdb984b8382e6be393ecba4fe10} 
+\index{QuickshotBlitz.Player@{QuickshotBlitz.Player}!\_speed@{\_speed}}
+\index{\_speed@{\_speed}!QuickshotBlitz.Player@{QuickshotBlitz.Player}}
+\doxysubsubsection{\texorpdfstring{\_speed}{\_speed}}
+{\footnotesize\ttfamily float Quickshot\+Blitz.\+Player.\+\_\+speed\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_quickshot_blitz_1_1_player_ac49d11c199dcedab6687009d88a5a290}\label{class_quickshot_blitz_1_1_player_ac49d11c199dcedab6687009d88a5a290} 
+\index{QuickshotBlitz.Player@{QuickshotBlitz.Player}!SpawnPoint@{SpawnPoint}}
+\index{SpawnPoint@{SpawnPoint}!QuickshotBlitz.Player@{QuickshotBlitz.Player}}
+\doxysubsubsection{\texorpdfstring{SpawnPoint}{SpawnPoint}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_quickshot_blitz_1_1_player_spawn_point}{Player\+Spawn\+Point}} Quickshot\+Blitz.\+Player.\+Spawn\+Point\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\Hypertarget{class_quickshot_blitz_1_1_player_ac2c29b055f1de68554d35464c2a656b9}\label{class_quickshot_blitz_1_1_player_ac2c29b055f1de68554d35464c2a656b9} 
+\index{QuickshotBlitz.Player@{QuickshotBlitz.Player}!VirtualCamera@{VirtualCamera}}
+\index{VirtualCamera@{VirtualCamera}!QuickshotBlitz.Player@{QuickshotBlitz.Player}}
+\doxysubsubsection{\texorpdfstring{VirtualCamera}{VirtualCamera}}
+{\footnotesize\ttfamily Cinemachine\+Virtual\+Camera Quickshot\+Blitz.\+Player.\+Virtual\+Camera\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
 
 
 The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
 \item 
-C\+:/\+Dev/\+Unity/\+Quickshot\+Blitz/\+Assets/\+Player/Player.\+cs\end{DoxyCompactItemize}
+C\+:/\+Dev/\+Unity/\+Quickshot\+Blitz/\+Assets/\+Player/\mbox{\hyperlink{_player_8cs}{Player.\+cs}}\end{DoxyCompactItemize}

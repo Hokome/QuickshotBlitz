@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['player_0',['Player',['../class_quickshot_blitz_1_1_player.html',1,'QuickshotBlitz']]]
+  ['level_0',['Level',['../class_quickshot_blitz_1_1_level.html',1,'QuickshotBlitz']]],
+  ['levelinitializer_1',['LevelInitializer',['../class_quickshot_blitz_1_1_level_initializer.html',1,'QuickshotBlitz']]]
 ];

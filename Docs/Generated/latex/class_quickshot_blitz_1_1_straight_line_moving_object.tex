@@ -1,0 +1,139 @@
+\doxysection{Quickshot\+Blitz.\+Straight\+Line\+Moving\+Object Class Reference}
+\hypertarget{class_quickshot_blitz_1_1_straight_line_moving_object}{}\label{class_quickshot_blitz_1_1_straight_line_moving_object}\index{QuickshotBlitz.StraightLineMovingObject@{QuickshotBlitz.StraightLineMovingObject}}
+Inheritance diagram for Quickshot\+Blitz.\+Straight\+Line\+Moving\+Object\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_quickshot_blitz_1_1_straight_line_moving_object}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Vector2 \mbox{\hyperlink{class_quickshot_blitz_1_1_straight_line_moving_object_ab8633c44ff064c066f8790d61e5fe001}{Start\+Position}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Global start position. \end{DoxyCompactList}\item 
+Vector2 \mbox{\hyperlink{class_quickshot_blitz_1_1_straight_line_moving_object_aeb1de02dc84b21b4c9e0a231549e705e}{End\+Position}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Global end position. \end{DoxyCompactList}\item 
+Vector2 \mbox{\hyperlink{class_quickshot_blitz_1_1_straight_line_moving_object_a3cb445f6c5eb2c12ba08c648bbe4e99c}{Current\+Target\+Position}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_quickshot_blitz_1_1_straight_line_moving_object_a03f550cdb7517b5bd9f1b122f1234281}{Start}} ()
+\item 
+void \mbox{\hyperlink{class_quickshot_blitz_1_1_straight_line_moving_object_a5d636935c91600f8332a8108970e8e35}{Fixed\+Update}} ()
+\item 
+void \mbox{\hyperlink{class_quickshot_blitz_1_1_straight_line_moving_object_a2a55af86e9687414ca51243a8326d095}{On\+Draw\+Gizmos\+Selected}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+float \mbox{\hyperlink{class_quickshot_blitz_1_1_straight_line_moving_object_ab59b86a3629a92056736b49194039d64}{\+\_\+speed}} = 1f
+\item 
+Vector2 \mbox{\hyperlink{class_quickshot_blitz_1_1_straight_line_moving_object_a6755a4e0d475010797bddcb175773822}{\+\_\+start\+Position}}
+\begin{DoxyCompactList}\small\item\em Cached when object is instanciated. \end{DoxyCompactList}\item 
+Vector2 \mbox{\hyperlink{class_quickshot_blitz_1_1_straight_line_moving_object_a0cc79fcdc35e12fe74dcc7b66bee54ec}{\+\_\+end\+Position}}
+\begin{DoxyCompactList}\small\item\em Cached when object is instanciated. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_quickshot_blitz_1_1_straight_line_moving_object_ad1ddfa13123b476589a745d72eb1fbc5}{\+\_\+goint\+Towards\+End}} = true
+\begin{DoxyCompactList}\small\item\em True if going towards the end position, false if going towards the start position. \end{DoxyCompactList}\item 
+Rigidbody2D \mbox{\hyperlink{class_quickshot_blitz_1_1_straight_line_moving_object_a4e1c2f033d44fc6351439cda571380a6}{\+\_\+rb}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_quickshot_blitz_1_1_straight_line_moving_object_a5d636935c91600f8332a8108970e8e35}\label{class_quickshot_blitz_1_1_straight_line_moving_object_a5d636935c91600f8332a8108970e8e35} 
+\index{QuickshotBlitz.StraightLineMovingObject@{QuickshotBlitz.StraightLineMovingObject}!FixedUpdate@{FixedUpdate}}
+\index{FixedUpdate@{FixedUpdate}!QuickshotBlitz.StraightLineMovingObject@{QuickshotBlitz.StraightLineMovingObject}}
+\doxysubsubsection{\texorpdfstring{FixedUpdate()}{FixedUpdate()}}
+{\footnotesize\ttfamily void Quickshot\+Blitz.\+Straight\+Line\+Moving\+Object.\+Fixed\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\Hypertarget{class_quickshot_blitz_1_1_straight_line_moving_object_a2a55af86e9687414ca51243a8326d095}\label{class_quickshot_blitz_1_1_straight_line_moving_object_a2a55af86e9687414ca51243a8326d095} 
+\index{QuickshotBlitz.StraightLineMovingObject@{QuickshotBlitz.StraightLineMovingObject}!OnDrawGizmosSelected@{OnDrawGizmosSelected}}
+\index{OnDrawGizmosSelected@{OnDrawGizmosSelected}!QuickshotBlitz.StraightLineMovingObject@{QuickshotBlitz.StraightLineMovingObject}}
+\doxysubsubsection{\texorpdfstring{OnDrawGizmosSelected()}{OnDrawGizmosSelected()}}
+{\footnotesize\ttfamily void Quickshot\+Blitz.\+Straight\+Line\+Moving\+Object.\+On\+Draw\+Gizmos\+Selected (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\Hypertarget{class_quickshot_blitz_1_1_straight_line_moving_object_a03f550cdb7517b5bd9f1b122f1234281}\label{class_quickshot_blitz_1_1_straight_line_moving_object_a03f550cdb7517b5bd9f1b122f1234281} 
+\index{QuickshotBlitz.StraightLineMovingObject@{QuickshotBlitz.StraightLineMovingObject}!Start@{Start}}
+\index{Start@{Start}!QuickshotBlitz.StraightLineMovingObject@{QuickshotBlitz.StraightLineMovingObject}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily void Quickshot\+Blitz.\+Straight\+Line\+Moving\+Object.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_quickshot_blitz_1_1_straight_line_moving_object_a0cc79fcdc35e12fe74dcc7b66bee54ec}\label{class_quickshot_blitz_1_1_straight_line_moving_object_a0cc79fcdc35e12fe74dcc7b66bee54ec} 
+\index{QuickshotBlitz.StraightLineMovingObject@{QuickshotBlitz.StraightLineMovingObject}!\_endPosition@{\_endPosition}}
+\index{\_endPosition@{\_endPosition}!QuickshotBlitz.StraightLineMovingObject@{QuickshotBlitz.StraightLineMovingObject}}
+\doxysubsubsection{\texorpdfstring{\_endPosition}{\_endPosition}}
+{\footnotesize\ttfamily Vector2 Quickshot\+Blitz.\+Straight\+Line\+Moving\+Object.\+\_\+end\+Position\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Cached when object is instanciated. 
+
+\Hypertarget{class_quickshot_blitz_1_1_straight_line_moving_object_ad1ddfa13123b476589a745d72eb1fbc5}\label{class_quickshot_blitz_1_1_straight_line_moving_object_ad1ddfa13123b476589a745d72eb1fbc5} 
+\index{QuickshotBlitz.StraightLineMovingObject@{QuickshotBlitz.StraightLineMovingObject}!\_gointTowardsEnd@{\_gointTowardsEnd}}
+\index{\_gointTowardsEnd@{\_gointTowardsEnd}!QuickshotBlitz.StraightLineMovingObject@{QuickshotBlitz.StraightLineMovingObject}}
+\doxysubsubsection{\texorpdfstring{\_gointTowardsEnd}{\_gointTowardsEnd}}
+{\footnotesize\ttfamily bool Quickshot\+Blitz.\+Straight\+Line\+Moving\+Object.\+\_\+goint\+Towards\+End = true\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+True if going towards the end position, false if going towards the start position. 
+
+\Hypertarget{class_quickshot_blitz_1_1_straight_line_moving_object_a4e1c2f033d44fc6351439cda571380a6}\label{class_quickshot_blitz_1_1_straight_line_moving_object_a4e1c2f033d44fc6351439cda571380a6} 
+\index{QuickshotBlitz.StraightLineMovingObject@{QuickshotBlitz.StraightLineMovingObject}!\_rb@{\_rb}}
+\index{\_rb@{\_rb}!QuickshotBlitz.StraightLineMovingObject@{QuickshotBlitz.StraightLineMovingObject}}
+\doxysubsubsection{\texorpdfstring{\_rb}{\_rb}}
+{\footnotesize\ttfamily Rigidbody2D Quickshot\+Blitz.\+Straight\+Line\+Moving\+Object.\+\_\+rb\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_quickshot_blitz_1_1_straight_line_moving_object_ab59b86a3629a92056736b49194039d64}\label{class_quickshot_blitz_1_1_straight_line_moving_object_ab59b86a3629a92056736b49194039d64} 
+\index{QuickshotBlitz.StraightLineMovingObject@{QuickshotBlitz.StraightLineMovingObject}!\_speed@{\_speed}}
+\index{\_speed@{\_speed}!QuickshotBlitz.StraightLineMovingObject@{QuickshotBlitz.StraightLineMovingObject}}
+\doxysubsubsection{\texorpdfstring{\_speed}{\_speed}}
+{\footnotesize\ttfamily float Quickshot\+Blitz.\+Straight\+Line\+Moving\+Object.\+\_\+speed = 1f\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_quickshot_blitz_1_1_straight_line_moving_object_a6755a4e0d475010797bddcb175773822}\label{class_quickshot_blitz_1_1_straight_line_moving_object_a6755a4e0d475010797bddcb175773822} 
+\index{QuickshotBlitz.StraightLineMovingObject@{QuickshotBlitz.StraightLineMovingObject}!\_startPosition@{\_startPosition}}
+\index{\_startPosition@{\_startPosition}!QuickshotBlitz.StraightLineMovingObject@{QuickshotBlitz.StraightLineMovingObject}}
+\doxysubsubsection{\texorpdfstring{\_startPosition}{\_startPosition}}
+{\footnotesize\ttfamily Vector2 Quickshot\+Blitz.\+Straight\+Line\+Moving\+Object.\+\_\+start\+Position\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Cached when object is instanciated. 
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_quickshot_blitz_1_1_straight_line_moving_object_a3cb445f6c5eb2c12ba08c648bbe4e99c}\label{class_quickshot_blitz_1_1_straight_line_moving_object_a3cb445f6c5eb2c12ba08c648bbe4e99c} 
+\index{QuickshotBlitz.StraightLineMovingObject@{QuickshotBlitz.StraightLineMovingObject}!CurrentTargetPosition@{CurrentTargetPosition}}
+\index{CurrentTargetPosition@{CurrentTargetPosition}!QuickshotBlitz.StraightLineMovingObject@{QuickshotBlitz.StraightLineMovingObject}}
+\doxysubsubsection{\texorpdfstring{CurrentTargetPosition}{CurrentTargetPosition}}
+{\footnotesize\ttfamily Vector2 Quickshot\+Blitz.\+Straight\+Line\+Moving\+Object.\+Current\+Target\+Position\hspace{0.3cm}{\ttfamily [get]}}
+
+\Hypertarget{class_quickshot_blitz_1_1_straight_line_moving_object_aeb1de02dc84b21b4c9e0a231549e705e}\label{class_quickshot_blitz_1_1_straight_line_moving_object_aeb1de02dc84b21b4c9e0a231549e705e} 
+\index{QuickshotBlitz.StraightLineMovingObject@{QuickshotBlitz.StraightLineMovingObject}!EndPosition@{EndPosition}}
+\index{EndPosition@{EndPosition}!QuickshotBlitz.StraightLineMovingObject@{QuickshotBlitz.StraightLineMovingObject}}
+\doxysubsubsection{\texorpdfstring{EndPosition}{EndPosition}}
+{\footnotesize\ttfamily Vector2 Quickshot\+Blitz.\+Straight\+Line\+Moving\+Object.\+End\+Position\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Global end position. 
+
+\Hypertarget{class_quickshot_blitz_1_1_straight_line_moving_object_ab8633c44ff064c066f8790d61e5fe001}\label{class_quickshot_blitz_1_1_straight_line_moving_object_ab8633c44ff064c066f8790d61e5fe001} 
+\index{QuickshotBlitz.StraightLineMovingObject@{QuickshotBlitz.StraightLineMovingObject}!StartPosition@{StartPosition}}
+\index{StartPosition@{StartPosition}!QuickshotBlitz.StraightLineMovingObject@{QuickshotBlitz.StraightLineMovingObject}}
+\doxysubsubsection{\texorpdfstring{StartPosition}{StartPosition}}
+{\footnotesize\ttfamily Vector2 Quickshot\+Blitz.\+Straight\+Line\+Moving\+Object.\+Start\+Position\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Global start position. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Dev/\+Unity/\+Quickshot\+Blitz/\+Assets/\+Obstacles/\mbox{\hyperlink{_straight_line_moving_object_8cs}{Straight\+Line\+Moving\+Object.\+cs}}\end{DoxyCompactItemize}

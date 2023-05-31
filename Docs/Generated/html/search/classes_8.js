@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['subgauge_0',['SubGauge',['../class_quickshot_blitz_1_1_u_i_1_1_sub_gauge.html',1,'QuickshotBlitz::UI']]]
+  ['player_0',['Player',['../class_quickshot_blitz_1_1_player.html',1,'QuickshotBlitz']]],
+  ['playerspawnpoint_1',['PlayerSpawnPoint',['../class_quickshot_blitz_1_1_player_spawn_point.html',1,'QuickshotBlitz']]]
 ];
