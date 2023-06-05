@@ -18,7 +18,7 @@ namespace QuickshotBlitz
         public CinemachineVirtualCamera VirtualCamera { get; set; }
 
         private Rigidbody2D _rb;
-        private Vector2 _moveInput;
+        public Vector2 MoveInput { get; private set; }
 
         private void Start()
         {
@@ -30,7 +30,7 @@ namespace QuickshotBlitz
 
         private void FixedUpdate()
         {
-            _rb.velocity = _moveInput * _speed;
+            _rb.velocity = MoveInput * _speed;
         }
 
         /// <summary>
@@ -38,7 +38,7 @@ namespace QuickshotBlitz
         /// </summary>
         public void SetMoveInput(InputContext ctx)
         {
-            _moveInput = ctx.ReadValue<Vector2>();
+            MoveInput = ctx.ReadValue<Vector2>();
         }
 
         /// <summary>
